@@ -1,0 +1,28 @@
+.ContactData {
+  margin: 20px auto;
+  width: 80%;
+  text-align: center;
+  box-shadow: 0px 2px 3px #ccc;
+  border: 1px solid #eee;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.Address {
+  border: 1px solid black;
+  margin: 8px 0px;
+  padding: 8px;
+  margin-block-start: 0;
+  border-radius: 8px;
+}
+
+.Address:hover {
+  border: 2px solid orangered;
+  background: rgb(241, 180, 66);
+}
+
+@media (min-width: 600px) {
+  .ContactData {
+    width: 500px;
+  }
+}

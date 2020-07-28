@@ -1,0 +1,36 @@
+.Button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  font: inherit;
+  padding: 10px;
+  margin: 10px;
+  font-weight: bold;
+}
+
+.Disabled:hover {
+  cursor: not-allowed;
+}
+
+.Button:first-of-type {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.Success {
+  color: #5c9210;
+}
+
+.Success.Disabled {
+  color: darkgrey;
+}
+
+.Danger {
+  color: #944317;
+}
+
+.Danger.Disabled {
+  color: darkgrey;
+}

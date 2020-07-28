@@ -1,0 +1,21 @@
+.Order {
+  border: 2px solid black;
+  border-radius: 8px;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 15px;
+  padding: 16px;
+}
+
+.Order:hover {
+  background: rgb(219, 216, 216);
+}
+
+.Ingredients {
+  border: 1px solid grey;
+  display: table;
+  margin: auto;
+  margin-bottom: 5px;
+  padding: 8px;
+  border-radius: 3px;
+}
